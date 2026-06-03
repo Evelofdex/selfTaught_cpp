@@ -16,7 +16,7 @@ class stack{
              cout << endl << "stack is full, cannot add more" << endl;
         } else {
             top++;
-            cout << "Input data: ";
+            cout << "Input data(number): ";
             cin >> arr[top];
         }
         cout << endl;
@@ -61,6 +61,7 @@ int main(){
 
 
     do {
+        cout << "============= Input with number #" << endl;
         cout << "1. Input data" << endl;
         cout << "2. Display Stack" << endl;
         cout << "3. Delete" << endl;
