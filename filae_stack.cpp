@@ -36,7 +36,6 @@ class stack{
                     cout << arr[i] << endl;
                 }
             }
-            
         }
         cout << "=========== Stacks #" << endl << endl;
     }
@@ -58,7 +57,6 @@ int main(){
 
     char input;
     stack s;
-
 
     do {
         cout << "============= Input with number #" << endl;
