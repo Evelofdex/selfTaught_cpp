@@ -58,7 +58,7 @@ class queue{
         cout << endl;
     }
     void pop(){
-        cout << "Deleted data: " << data.front() << endl << endl;
+        cout << "Deleted data: " << data.begin() << endl << endl;
         data.erase(data.begin());
         front++;
     }
